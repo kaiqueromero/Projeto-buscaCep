@@ -8,7 +8,7 @@ public class Main {
         String cep = "";
 
         try{
-            System.out.println("Qual o cep que deseja procurar? " + "\n (Digite um valor válido de 8 Digitos)");
+            System.out.println("Qual o cep que deseja procurar? " + " (Digite um valor válido de 8 Digitos)");
             cep = answer.nextLine();
             SearchCep searchCep = new SearchCep();
             Address newAddress = searchCep.searchAddress(cep);
